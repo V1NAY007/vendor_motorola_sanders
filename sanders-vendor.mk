@@ -105,7 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-perfd-client_system.so \
     vendor/motorola/sanders/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
     vendor/motorola/sanders/proprietary/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti_performance.so \
-    vendor/motorola/sanders/proprietary/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
     vendor/motorola/sanders/proprietary/lib/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor1.so \
     vendor/motorola/sanders/proprietary/lib/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/lib/libuiblur.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuiblur.so \
@@ -158,7 +160,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-perfd-client_system.so \
     vendor/motorola/sanders/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
     vendor/motorola/sanders/proprietary/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
-    vendor/motorola/sanders/proprietary/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/motorola/sanders/proprietary/lib64/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor1.so \
     vendor/motorola/sanders/proprietary/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
